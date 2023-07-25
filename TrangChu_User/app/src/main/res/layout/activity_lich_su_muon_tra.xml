@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LichSuMuonTra">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_ds_muon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_dangxuly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đang xử lý"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_damuon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đã mượn"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_datra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đã trả"/>
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/frame"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rcv_ls"
+            android:background="@color/white"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/custom_item_rec_lich_su" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

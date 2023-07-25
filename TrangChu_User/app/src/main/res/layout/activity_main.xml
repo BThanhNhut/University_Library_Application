@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/pagerMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+<!--    <FrameLayout-->
+<!--        android:id="@+id/frame_layout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginBottom="50dp"-->
+<!--        app:layout_anchor="@id/bottomAppBar" />-->
+
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:backgroundTint="@color/white"
+        app:fabCradleMargin="10dp"
+        app:contentInsetStart="0dp"
+        app:fabCradleRoundedCornerRadius="10dp"
+        app:fabCradleVerticalOffset="10dp"
+        tools:ignore="BottomAppBar">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:itemIconTint="@color/custom_color_trangchu"
+            app:itemTextColor="@color/custom_color_trangchu"
+            app:labelVisibilityMode="labeled"
+
+            app:menu="@menu/bottom_menu" />
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+
+</RelativeLayout>

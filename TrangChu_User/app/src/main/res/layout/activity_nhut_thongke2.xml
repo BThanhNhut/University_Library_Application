@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nhut_thongke2"
+    android:background="@color/color_white">
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="15dp">
+        <!--Tạo biểu đồ -->
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/bar_chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="MissingClass" />
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/card1"
+        >
+        <EditText
+            android:id="@+id/edt_ngaybd"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:textColor="#73c9fa"
+            android:hint="Năm bắt đầu"
+            android:drawableLeft="@drawable/baseline_calendar_month_24"
+            android:background="@drawable/edt_background"
+            android:inputType="number"
+            >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/edt_ngaykt"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:textColor="#73c9fa"
+            android:hint="Năm kết thúc"
+            android:drawableLeft="@drawable/baseline_calendar_month_24"
+            android:background="@drawable/edt_background"
+            android:inputType="number"
+            >
+        </EditText>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/details"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        >
+        <!--Relative layout to display -->
+        <!-- use of programming languages -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--Text view to use of -->
+            <!-- programming languages text-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:text="Chi tiết"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <!--View to display the line-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/color_two" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="10dp">
+
+                <!--Text view to display R -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Năm mượn nhiều nhất"
+                    android:textSize="18sp" />
+
+                <!--Text view to display the -->
+                <!-- percentage of programming language -->
+                <!-- used. For now default set to 0-->
+                <TextView
+                    android:id="@+id/tvR"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="sans-serif-light"
+                    android:text="0"
+                    android:textAlignment="textEnd"
+                    android:textColor="#73c9fa"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <!--View to display the line-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/color_two" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="Năm trả nhiều nhất"
+                    android:textSize="18sp" />
+
+                <!--Text view to display the percentage -->
+                <!-- of programming language used. -->
+                <!-- For now default set to 0-->
+
+                <TextView
+                    android:id="@+id/tvPython"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="sans-serif-light"
+                    android:text="0"
+                    android:textAlignment="textEnd"
+                    android:textColor="#73c9fa"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+                <View
+                    android:layout_below="@+id/tvPython"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/color_two" />
+                <Button
+                    android:id="@+id/btnThongKe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvPython"
+                    android:layout_marginTop="20dp"
+                    android:text="thuc thi">
+
+                </Button>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

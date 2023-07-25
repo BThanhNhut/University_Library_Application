@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingTop="100dp"
+    android:background="@drawable/thao2"
+    tools:context=".DangNhap">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/custom_edittext"
+        android:backgroundTint="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/loginText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đăng nhập"
+                android:textAlignment="center"
+                android:textColor="@color/blue1"
+                android:textSize="36dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txt_username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/person"
+                android:drawablePadding="8dp"
+                android:hint="Tên đăng nhập"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background" />
+
+            <EditText
+                android:id="@+id/txt_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/lock"
+                android:drawablePadding="8dp"
+                android:hint="Mật khẩu"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background" />
+
+            <Button
+                android:id="@+id/btn_dangnhap"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/blue1"
+                android:text="Đăng nhập"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="8dp"
+        android:text="Bạn chưa có tài khoản? Đăng ký"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:id="@+id/txt_dangky"
+        android:textColor="@color/blue1"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>

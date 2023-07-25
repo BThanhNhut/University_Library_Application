@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <style name="MyDatePickerDialog" parent="Theme.AppCompat.Light.Dialog">-->
+<!--        <item name="android:background">@color/blue1</item>-->
+<!--        <item name="colorAccent">@android:color/holo_green_dark</item>&ndash;&gt;-->
+<!--        <item name="android:textColor">@android:color/background_dark</item>-->
+<!--        <item name="android:calendarTextColor">@android:color/holo_blue_bright</item>-->
+<!--        <item name="android:headerBackground">@color/colorPrimary</item>-->
+<!--        <item name="android:datePickerMode">calendar</item>-->
+<!--    </style>-->
+
+<!--    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">-->
+<!--        <item name="colorAccent">@android:color/holo_green_dark</item>-->
+<!--        <item name="android:textColor">@android:color/holo_green_dark</item>&ndash;&gt;-->
+<!--    </style>-->
+
+<!--    <style name="MyDatePickerDialog" parent="@android:style/Theme.Holo.Light">-->
+<!--        <item name="android:windowFrame">@null</item>-->
+<!--        <item name="android:windowIsFloating">true</item>-->
+<!--        <item name="android:windowIsTranslucent">true</item>-->
+<!--        <item name="colorAccent">@color/blue1</item>-->
+<!--        <item name="android:calendarTextColor">@android:color/holo_blue_bright</item>-->
+<!--    </style>-->
+
+    <style name="MyDatePickerDialog" parent="Theme.AppCompat.Light.Dialog">
+        <!-- BackgroundColor of the date modal -->
+        <item name="colorAccent">#0066F5</item>
+        <!-- Change textColor of the date modal -->
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:calendarTextColor">@android:color/black</item>-->
+    </style>
+
+</resources>

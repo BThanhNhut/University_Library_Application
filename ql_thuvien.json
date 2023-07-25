@@ -1,0 +1,763 @@
+{
+  "ChiTietMuonTra": [
+    null,
+    {
+      "id_MT": 1,
+      "id_Sach": 16,
+      "ngayMuon": "18/2/2023",
+      "tenSach": "Kế toán tài chính",
+      "tinhTrangSach": "Chưa xét",
+      "tinhTrangTra": false
+    },
+    {
+      "id_MT": 1,
+      "id_Sach": 17,
+      "ngayMuon": "18/2/2023",
+      "tenSach": "Kế toán chi phí",
+      "tinhTrangSach": "Chưa xét",
+      "tinhTrangTra": false
+    },
+    {
+      "id_MT": 2,
+      "id_Sach": 9,
+      "ngayMuon": "11/1/2023",
+      "tenSach": "Kỹ Thuật Cắt May Cơ Bản",
+      "tinhTrangSach": "Chưa xét",
+      "tinhTrangTra": false
+    },
+    {
+      "id_MT": 2,
+      "id_Sach": 10,
+      "ngayMuon": "11/1/2023",
+      "tenSach": "Kỹ Thuật Cắt May Căn Bản & Thời Trang",
+      "tinhTrangSach": "CChưa xét",
+      "tinhTrangTra": false
+    },
+    {
+      "id_MT": 3,
+      "id_Sach": 21,
+      "ngayMuon": "2/2/2023",
+      "tenSach": "Toeic Training Reading Comprehension 730",
+      "tinhTrangSach": "Chưa xét",
+      "tinhTrangTra": false
+    },
+    {
+      "id_MT": 3,
+      "id_Sach": 22,
+      "ngayMuon": "2/2/2023",
+      "tenSach": "Cơ sở dữ liệu",
+      "tinhTrangSach": "Chưa xét",
+      "tinhTrangTra": false
+    },
+    {
+      "id_MT": 4,
+      "id_Sach": 24,
+      "ngayMuon": "4/2/2023",
+      "tenSach": "Trí tuệ nhân tạo",
+      "tinhTrangSach": "Chưa xét",
+      "tinhTrangTra": false
+    },
+    {
+      "id_MT": 4,
+      "id_Sach": 25,
+      "ngayMuon": "4/2/2023",
+      "tenSach": "Lập trình java",
+      "tinhTrangSach": "Chưa xét",
+      "tinhTrangTra": false
+    },
+    {
+      "id_MT": 5,
+      "id_Sach": 26,
+      "ngayMuon": "2/2/2023",
+      "ngayTra": "15/2/2023",
+      "tenSach": "Sinh học tế bào & di truyền học",
+      "tinhTrangSach": "Không hư hỏng",
+      "tinhTrangTra": true
+    },
+    {
+      "id_MT": 5,
+      "id_Sach": 27,
+      "ngayMuon": "15/2/2023",
+      "ngayTra": "15/2/2023",
+      "tenSach": "Công nghệ sinh học phân tử",
+      "tinhTrangSach": "Không hư hỏng",
+      "tinhTrangTra": true
+    },
+    {
+      "id_MT": 6,
+      "id_Sach": 29,
+      "ngayMuon": "18/2/2023",
+      "ngayTra": "30/2/2023",
+      "tenSach": "Chuyên ngành sinh học & kỹ thuật sinh học",
+      "tinhTrangSach": "Bị rách hư hỏng nhẹ",
+      "tinhTrangTra": true
+    },
+    {
+      "id_MT": 6,
+      "id_Sach": 30,
+      "ngayMuon": "18/2/2023",
+      "ngayTra": "30/2/2023",
+      "tenSach": "Câu chuyện di truyền",
+      "tinhTrangSach": "không hư hỏng",
+      "tinhTrangTra": true
+    }
+  ],
+  "DanhSachYeuThich": [
+    null,
+    {
+      "hinh": "a1",
+      "id": 1,
+      "id_DG": 2,
+      "id_Sach": 1,
+      "tacGia": "Nhiều tác giả",
+      "tenSach": "Ielts Course for Secondary Education"
+    },
+    {
+      "hinh": "a17",
+      "id": 2,
+      "id_DG": 1,
+      "id_Sach": 17,
+      "tacGia": "Lê Ngọc Khánh",
+      "tenSach": "Kế toán chi phí"
+    },
+    {
+      "hinh": "a18",
+      "id": 3,
+      "id_DG": 1,
+      "id_Sach": 18,
+      "tacGia": "Nguyễn Hữu Ánh & Phạm Đức Cường",
+      "tenSach": "Nguyên lí kế toán"
+    },
+    {
+      "hinh": "a20",
+      "id": 4,
+      "id_DG": 1,
+      "id_Sach": 20,
+      "tacGia": "Nguyễn Thị Loan & Trần Quốc Thịnh",
+      "tenSach": "Kế toán quản trị"
+    },
+    {
+      "hinh": "a21",
+      "id": 5,
+      "id_DG": 2,
+      "id_Sach": 21,
+      "tacGia": "Huỳnh Ngọc Tín",
+      "tenSach": "Phân tích thiết kế hệ thống thông tin"
+    },
+    {
+      "hinh": "a22",
+      "id": 6,
+      "id_DG": 2,
+      "id_Sach": 22,
+      "tacGia": "Nguyễn Đăng Tỵ & Đỗ Phúc",
+      "tenSach": "Cơ sở dữ liệu"
+    },
+    null,
+    {
+      "hinh": "2131165254",
+      "id": 8,
+      "id_DG": 1,
+      "id_Sach": 9,
+      "tacGia": "Ngọc Huyền",
+      "tenSach": "Kỹ Thuật Cắt May Cơ Bản"
+    },
+    {
+      "hinh": "2131165247",
+      "id": 9,
+      "id_DG": 1,
+      "id_Sach": 3,
+      "tacGia": "Tác giả: Park Seong-Uk",
+      "tenSach": "Toeic Training Reading Comprehension 730"
+    },
+    {
+      "hinh": "2131165241",
+      "id": 10,
+      "id_DG": 4,
+      "id_Sach": 24,
+      "tacGia": "Tác giả: Lasse Rouhiainen",
+      "tenSach": "Trí tuệ nhân tạo"
+    }
+  ],
+  "DocGia": [
+    null,
+    {
+      "email": "sukien197@gmail.com",
+      "gioiTinh": "Nam",
+      "id": 1,
+      "tenDG": "Biện Thanh Nhựt",
+      "username": "nhuttuong"
+    },
+    {
+      "email": "thaohp@gmail.com",
+      "gioiTinh": "Nữ",
+      "id": 2,
+      "tenDG": "Hồ Phương Thảo",
+      "username": "thaood"
+    },
+    {
+      "email": "dat@gmail.com",
+      "gioiTinh": "Nam",
+      "id": 3,
+      "tenDG": "Tống Duy Trường Đạt",
+      "username": "truongdat"
+    },
+    {
+      "email": "maimai@gmail.com",
+      "gioiTinh": "Nữ",
+      "id": 4,
+      "tenDG": "Huỳnh Thị Kiều Mai",
+      "username": "kieumai"
+    },
+    {
+      "email": "linh@gmail.com",
+      "gioiTinh": "Nữ",
+      "id": 5,
+      "tenDG": "Phan Thị Ánh Linh",
+      "username": "anhlinh"
+    },
+    {
+      "email": "kha@gmail.com",
+      "gioiTinh": "Nam",
+      "id": 6,
+      "tenDG": "Lê Minh Kha",
+      "username": "minhkha"
+    }
+  ],
+  "GioSach": [
+    null,
+    {
+      "hinh": "a1",
+      "id": 1,
+      "id_DG": 4,
+      "id_Sach": 1,
+      "tacGia": "Nhiều tác giả",
+      "tenSach": "Ielts Course for Secondary Education"
+    }
+  ],
+  "Loai": [
+    null,
+    {
+      "id": 1,
+      "tenLoai": "Kinh tế"
+    },
+    {
+      "id": 2,
+      "tenLoai": "Công nghệ thông tin"
+    },
+    {
+      "id": 3,
+      "tenLoai": "Công nghệ sinh học"
+    },
+    {
+      "id": 4,
+      "tenLoai": "Du lịch ẩm thực"
+    },
+    {
+      "id": 5,
+      "tenLoai": "Ngoại ngữ"
+    },
+    {
+      "id": 5,
+      "tenLoai": "Công nghệ may và thời trang"
+    }
+  ],
+  "MuonTra": [
+    null,
+    {
+      "id": 1,
+      "id_DG": 1,
+      "ngayMuon": "18/2/2023",
+      "tinhTrang": true
+    },
+    {
+      "id": 2,
+      "id_DG": 2,
+      "ngayMuon": "11/1/2023",
+      "tinhTrang": true
+    },
+    {
+      "id": 3,
+      "id_DG": 3,
+      "ngayMuon": "2/2/2023",
+      "tinhTrang": true
+    },
+    {
+      "id": 4,
+      "id_DG": 4,
+      "ngayMuon": "4/2/2023",
+      "tinhTrang": true
+    },
+    {
+      "id": 5,
+      "id_DG": 5,
+      "ngayMuon": "2/2/2023",
+      "tinhTrang": true
+    },
+    {
+      "id": 6,
+      "id_DG": 6,
+      "ngayMuon": "18/2/2023",
+      "tinhTrang": true
+    }
+  ],
+  "NhaXuatBan": [
+    null,
+    {
+      "diaChi": "TP-HCM",
+      "id": 1,
+      "sdt": "0377 092166",
+      "tenNXB": "Nhà xuất bản tài chính"
+    },
+    {
+      "diaChi": "TP-HCM",
+      "id": 2,
+      "sdt": "0356 853029",
+      "tenNXB": "Nhà xuất bản tổng hợp HCM"
+    },
+    {
+      "diaChi": "TP-HCM",
+      "id": 3,
+      "sdt": "0987 118308",
+      "tenNXB": "Nhà xuất bản đại học Kinh tế Quốc dân"
+    },
+    {
+      "diaChi": "TP-HCM",
+      "id": 4,
+      "sdt": "0945 802082",
+      "tenNXB": "Nhà xuất bản Kinh tế Hồ Chí Minh"
+    },
+    {
+      "diaChi": "TP-HCM",
+      "id": 5,
+      "sdt": "0374 458018",
+      "tenNXB": "Nhà xuất bản đại học quốc gia TP Hồ Chí Minh"
+    },
+    {
+      "diaChi": "TP-HCM",
+      "id": 6,
+      "sdt": "0975 833652",
+      "tenNXB": "Nhà xuất bản Kim đồng"
+    },
+    {
+      "diaChi": "TP-HCM",
+      "id": 7,
+      "sdt": "094000000",
+      "tenNXB": "Nhà xuất bản Khoa học và kỹ thuật"
+    },
+    {
+      "diaChi": "TP-HCM",
+      "id": 8,
+      "sdt": "0839 060655",
+      "tenNXB": "Nhà xuất bản dân trí"
+    },
+    {
+      "diaChi": "TP-HCM",
+      "id": 9,
+      "sdt": "0933 888337",
+      "tenNXB": "Nhà xuất bản trẻ"
+    }
+  ],
+  "TaiKhoan": [
+    null,
+    {
+      "id_DG": 1,
+      "password": "123",
+      "tinhtrang": true,
+      "username": "nhuttuong"
+    },
+    {
+      "id_DG": 2,
+      "password": "123",
+      "tinhtrang": true,
+      "username": "thaood"
+    },
+    {
+      "id_DG": 3,
+      "password": "123",
+      "tinhtrang": true,
+      "username": "truongdat"
+    },
+    {
+      "id_DG": 4,
+      "password": "123",
+      "tinhtrang": true,
+      "username": "kieumai"
+    },
+    {
+      "id_DG": 5,
+      "password": "123",
+      "tinhtrang": true,
+      "username": "anhlinh"
+    },
+    {
+      "id_DG": 6,
+      "password": "123",
+      "tinhtrang": true,
+      "username": "minhkha"
+    }
+  ],
+  "TaiLieu": [
+    null,
+    {
+      "hinh": "a1",
+      "id": 1,
+      "id_Loai": 5,
+      "id_NXB": 6,
+      "moTa": "Đây là giáo trình được biên soạn dành riêng cho học sinh trung học với mục tiêu hướng dẫn các em luyện tập để đạt điểm cao khi thi IELTS cũng như nâng cao khả năng sử dụng tiếng Anh. Trên cơ sở bám sát yêu cầu của bài thi IELTS, bộ giáo trình này bồi dưỡng cả bốn kỹ năng nghe, nói, đọc và viết thông qua các chủ đề phổ biến và trình độ phù hợp với học sinh trung học.",
+      "namXB": 2023,
+      "soLuong": 10,
+      "tacGia": "Nhiều tác giả",
+      "tenNXB": "Nhà xuất bản Kim Đồng",
+      "tenSach": "Ielts Course for Secondary Education"
+    },
+    {
+      "hinh": "a2",
+      "id": 2,
+      "id_Loai": 5,
+      "id_NXB": 6,
+      "moTa": "Sách phân tích, giải thích từng dạng câu hỏi có thể xuất hiện trong đề thi IELTS Reading. Cứ sau hai bài học (giới thiệu về hai dạng câu hỏi), bạn sẽ thấy một bài ôn tập. Cách trình bày này giúp bạn có thể tự kiểm tra mức độ tiếp thu kiến thức ngay sau khi học.\nSách tập trung vào các dạng câu hỏi tương đó khó thường xuất hiện trong đề thi IELTS Reading Academic. Nếu bạn thi IELTS General Training, việc nắm vững nội dung sách sẽ giúp bạn tự tin hơn khi làm bài thi IELTS Reading.",
+      "namXB": 2023,
+      "soLuong": 10,
+      "tacGia": "Nhiều tác giả",
+      "tenNXB": "Nhà xuất bản Kim đồng",
+      "tenSach": "Smart Ielts Reading"
+    },
+    {
+      "hinh": "a3",
+      "id": 3,
+      "id_Loai": 5,
+      "id_NXB": 2,
+      "moTa": "“TOEIC Training Reading Comprehension 730” là quyển sách dành cho việc nâng cao TOEIC. \n\nSách cung cấp các kiến thức liên quan đến ngữ pháp và vốn từ vựng cần thiết. \n\nNgoài ra, sách cung cấp các bài luyện tập dành riêng cho kỹ năng Đọc TOEIC. \n\nThông qua các kiến thức từ sách, bạn hoàn toàn sẽ cải thiện được kỹ năng TOEIC. ",
+      "namXB": 2023,
+      "soLuong": 10,
+      "tacGia": "Park Seong-Uk",
+      "tenNXB": "Nhà xuất bản đại học Kinh tế Quốc dân",
+      "tenSach": "Toeic Training Reading Comprehension 730"
+    },
+    {
+      "hinh": "a4",
+      "id": 4,
+      "id_Loai": 5,
+      "id_NXB": 5,
+      "moTa": "TOEIC Preparation là bộ sách phù hợp với những người mới bắt đầu hoặc là đang có kế hoạch làm bài kiểm tra TOEIC trong tương lai gần. Bộ sách sẽ cho bạn biết cấu trúc của bài thi TOEIC, đặc biệt là format đề thi mới, để các bạn làm quen với các loại câu hỏi và loại văn bản khác nhau đồng thời cung cấp các kiến thức cho bạn ôn thi hiệu quả.",
+      "namXB": 2023,
+      "soLuong": 10,
+      "tacGia": "Park Hye Young, Joen Ji Won",
+      "tenNXB": "Nhà xuất bản đại học quốc gia TP Hồ Chí Minh",
+      "tenSach": "Toeic Preparation"
+    },
+    {
+      "hinh": "a5",
+      "id": 5,
+      "id_Loai": 5,
+      "id_NXB": 9,
+      "moTa": "Phải học từ vựng tiếng Anh cách nào để nhớ lâu được đây? Sao mình học nhiều, học hoài mà mỗi khi nói hay viết cứ loay hoay tìm từ?\n\nMục tiêu của cuốn sách bỏ túi này là trang bị cho người học tiếng Anh số lượng từ vựng cần thiết để dễ dàng sử dụng trong các kỳ thi quốc tế cũng như trong cuộc sống hằng ngày.\n\nNgoài khối từ vựng phong phú kèm ví dụ, sách còn có các mục giải thích chi tiết những từ khó hoặc dễ nhầm lẫn giúp bạn khắc phục những khó khăn khi học từ, nắm vững cách dùng từ và phát triển cả bốn kỹ năng nghe, nói, đọc, viết.",
+      "namXB": 2023,
+      "soLuong": 10,
+      "tacGia": "Peter Lai",
+      "tenNXB": "Nhà xuất bản trẻ",
+      "tenSach": "15.000 Từ Tiếng Anh Phải Biết"
+    },
+    {
+      "hinh": "a6",
+      "id": 6,
+      "id_Loai": 6,
+      "id_NXB": 1,
+      "moTa": "\nCuốn sách giới thiệu những mẫu cắt may cơ bản nhất, từ đó có thể giúp người học mở rộng và phát triển thành nhiều mẫu khác nhau. Với những kiến thức cơ sở và cách trình bày dễ hiểu cùng hình vẽ tỉ mỉ, cuốn sách sẽ giúp những độc giả khéo tay có thể tự thiết kế trang phục cho bản thân và các thành viên trong gia đình. Đây cũng là cuốn cẩm nang giúp các thợ may nắm bắt được những bí quyết cắt may giản tiện và hữu ích để tạo ra những sản phẩm hoàn thiện hơn.",
+      "namXB": 2023,
+      "soLuong": 20,
+      "tacGia": "Nguyễn Thị Lệ",
+      "tenNXB": "Nhà xuất bản tài chính",
+      "tenSach": "Kỹ Thuật May Cơ Bản"
+    },
+    {
+      "hinh": "a7",
+      "id": 7,
+      "id_Loai": 6,
+      "id_NXB": 2,
+      "moTa": "Chương 1: Vật liệu dệt\nChương 2 Cấu tạo và tính chất chung của vải\nChương 3: Các loại vải thường dùng trong may mặc\nChương 4: Vật liệu dệt may và sản phẩm may mặc\nChương 5: Phương pháp lựa chọn vải và bảo quản hàng may mặc",
+      "namXB": 2023,
+      "soLuong": 20,
+      "tacGia": "Chu Bính",
+      "tenNXB": "Nhà xuất bản tổng hợp HCM",
+      "tenSach": "Giáo Trình Vật Liệu May"
+    },
+    {
+      "hinh": "a8",
+      "id": 8,
+      "id_Loai": 6,
+      "id_NXB": 3,
+      "moTa": "Sách -Cắt May Căn Bản- Phương Pháp Đo, Vẽ, Cắt May\nBảng sửa chữa các trở ngại khi may.\nĐặc tính của vài loại vải thông dụng.\nNhận định các loại hàng vải.\nHướng dẫn chọn hàng vải màu sác phù hợp với thể chất.\nCông việc chuẩn bị trước khi thực hiện một kiểu quần áo…\nPhương pháp đo, vẽ, cắt may\nY phục nữ\nCác kiểu tay ráp\nÁo bà ba\nÁo dài\nCác kiểu quần.\nQuần áo trẻ em\nÂu phục nam\nPhụ trang hướng dẫn thực hành.",
+      "namXB": 2023,
+      "soLuong": 20,
+      "tacGia": "Triệu Thị Chơi",
+      "tenNXB": "Nhà xuất bản đại học Kinh tế Quốc dân",
+      "tenSach": "Cắt May Căn Bản"
+    },
+    {
+      "hinh": "a9",
+      "id": 9,
+      "id_Loai": 6,
+      "id_NXB": 7,
+      "moTa": "- Chương 1: Kỹ thuật chung\n\nChuẩn bị vải trước khi may\n\nCách đính nút Các kiểu đường may\n\n- Chương 2: Y phục nữ\n\nCách đo y phục\n\nQuần đáy giữa lưng thun\n\nÁp vai chồm\n\nCác kiểu áo thời trang\n\nCác kiểu váy thời trang\n\n- Chương 3: Y phục nam\n\nÁo sơ-mi căn bản, tay ngắn\n\nÁo pyjama\n\nCách đo quần nam giới\n\nQuần đùi …\n\n",
+      "namXB": 2023,
+      "soLuong": 20,
+      "tacGia": "Ngọc Huyền",
+      "tenNXB": "Nhà xuất bản Khoa học và kỹ thuật",
+      "tenSach": "Kỹ Thuật Cắt May Cơ Bản"
+    },
+    {
+      "hinh": "a10",
+      "id": 10,
+      "id_Loai": 6,
+      "id_NXB": 6,
+      "moTa": "nhà phát hành: phụ nữ \nnhà xuất bản : phụ nữ \ntác giả : Cẩm Vân \nTrang : 172\nnăm : 2021\nNỘI DUNG \n\nChương 1:\nKỹ thuật chung\nChuẩn bị vải trước khi may\nCách đính nút Các kiểu đường may\n…\nChương 2: Y phục nữ\nCách đo y phục\nQuần đáy giữa lưng thun\nÁp vai chồm\nCác kiểu áo thời trang\nCác kiểu váy thời trang\n…\nChương 3: Y phục nam\nÁo sơ-mi căn bản, tay ngắn\nÁo pyjama\nCách đo quần nam giới\nQuần đùi …",
+      "namXB": 2023,
+      "soLuong": 20,
+      "tacGia": "Cẩm Vân",
+      "tenNXB": "Nhà xuất bản Kim đồng",
+      "tenSach": "Kỹ Thuật Cắt May Căn Bản & Thời Trang"
+    },
+    {
+      "hinh": "a11",
+      "id": 11,
+      "id_Loai": 4,
+      "id_NXB": 5,
+      "moTa": "",
+      "namXB": 2023,
+      "soLuong": 30,
+      "tacGia": "Thiên Kim",
+      "tenNXB": "Nhà xuất bản đại học quốc gia TP Hồ Chí Minh",
+      "tenSach": "Kỹ Thuật Chế Biến Món Sushi"
+    },
+    {
+      "hinh": "a12",
+      "id": 12,
+      "id_Loai": 4,
+      "id_NXB": 2,
+      "moTa": "Với đức tính kiên nhẫn, người Việt Nam có khuynh hướng chọn các công việc thủ công đòi hỏi sự khéo léo và tỉ mỉ. Cắt tỉa trái cây – rau củ là một trong những công việc như thế. First News xin trân trọng giới thiệu đến quý độc giả bộ sách khéo tay hay làm: Nghệ thuật Trang trí & Cắt tỉa Trái cây - Rau củ gồm hai quyển với hai chủ đề riêng biệt: trái cây và rau củ.\n\nTrang trí một vật để trở nên sinh động, duyên dáng là cả một công trình của đôi bàn tay và khối óc, đòi hỏi sự tìm tòi, sáng tạo không ngừng.",
+      "namXB": 2023,
+      "soLuong": 30,
+      "tacGia": "First News",
+      "tenNXB": "Nhà xuất bản tổng hợp HCM",
+      "tenSach": "Nghệ Thuật Trang Trí & Cắt Tỉa Trái Cây"
+    },
+    {
+      "hinh": "a13",
+      "id": 13,
+      "id_Loai": 4,
+      "id_NXB": 9,
+      "moTa": "Ẩm thực Việt Nam, dù là những món ăn gia đình hay những món ăn đặc trưng của ẩm thực đường phố thì vẫn mang những giá trị to lớn trong đời sống của người Việt. Ẩm thực Việt ngày nay đã vượt qua khỏi những biên giới và được chào đón ở nhiều nơi trên thế giới. Chúng ta có quyền tự hào về điều đó. Thưởng thức ẩm thực cũng giống như dấn thân vào một cuộc hành trình mà mỗi người đều có cảm nhận riêng. “ẨM THỰC TRUYỀN THỐNG VIỆT NAM” giúp bạn tìm hiểu và khám phá văn hóa ẩm thực Việt Nam từ buổi sơ khai đến nay. Đó là cả một quá trình lịch sử mà ông cha ta đã khai thác tự nhiên và cùng với nó là thực đơn bữa ăn hàng ngày bình dị của biết bao thế hệ con người.\nKhông chỉ thế cuốn sách còn giúp bạn tìm hiểu về văn hóa ẩm thực của từng vùng miền trên đất nước Việt Nam, từ nông thôn đến thành thị, từ miền ngược đến miền xuôi, cả miền núi lẫn đồng bằng. Dù ở đâu thì các món ăn cũng được hình thành trên cơ sở điều kiện tự nhiên của từng vùng miền và tạo thành những nét văn hóa ẩm thực riêng.",
+      "namXB": 2023,
+      "soLuong": 30,
+      "tacGia": "Ngô Đức Thịnh",
+      "tenNXB": "Nhà xuất bản trẻ",
+      "tenSach": "Khám Phá Ẩm Thực Truyền Thống Việt Nam"
+    },
+    {
+      "hinh": "a14",
+      "id": 14,
+      "id_Loai": 4,
+      "id_NXB": 8,
+      "moTa": "Nắm bắt các kiến thức khoa học và nấu ăn như một đầu bếp thực thụ!\n\nCùng tìm hiểu xem tại sao ướp thịt qua đêm là không cần thiết, ngâm nước các loại gia vị khô lại giúp gia tăng hương vị, tại sao tốt nhất là nên nướng hạt trong lò vi sóng và muối có thể giúp bạn chần trứng hoàn hảo như thế nào.\n\nNâng tầm kỹ năng và hoàn thiện cách thức nấu ăn của bạn!\n\nĐến từ bác sĩ, nhà khoa học thực phẩm, tiến sĩ Stuart Farrimond, người đã đưa khoa học về nấu ăn vào cuộc sống qua các chương trình truyền hình và phát thanh nổi tiếng.",
+      "namXB": 2023,
+      "soLuong": 30,
+      "tacGia": "Stuart Farrimond",
+      "tenNXB": "Nhà xuất bản dân trí",
+      "tenSach": "The Science of Cooking"
+    },
+    {
+      "hinh": "a15",
+      "id": 15,
+      "id_Loai": 4,
+      "id_NXB": 1,
+      "moTa": "Ngoài cung cấp năng lượng, thức ăn còn là nguồn cung cấp các chất tạo hình giúp cơ thể bồi đắp phần hao hụt, thay thế đổi mới và tăng trưởng phát triển thêm. Do đó, nhu cầu ăn uống có ngay từ lúc ban sơ, khi chúng ta mới mở mắt chào đời.\n\nNhư vậy, con người ai ai cũng cần phải ăn để sống, hoạt động và phát triển. Nhưng ăn thế nào cho người, phù hợp sức khỏe, nghề nghiệp, tuổi tác, bệnh tật v.v... là một vấn đề lớn, mà chúng ta lại chưa tìm hiểu thấu đáo và quan tâm đúng mức.\n\nSau nhiều năm hoạt động trong lĩnh vực y tế, chuyên ngành nội tiết và chuyển hóa, cùng với những kinh nghiệm thu nhận được từ công tác tư vấn, hướng dẫn sức khỏe cộng đồng trên những phương tiện truyền thông đại chúng, chúng tôi sưu tập những bài báo, tư liệu y khoa, hệ thống trong cuốn sách Món Ăn Việt Nam: Ẩm Thực, Dinh Dưỡng & Văn Hóa với hy vọng tạo ra một “cẩm nang” dinh dưỡng cho các bà nội trợ, đặc biệt những người trẻ mới lập gia đình.\n",
+      "namXB": 2023,
+      "soLuong": 30,
+      "tacGia": "Triệu Thị Chơi, Nguyễn Thị Phụng",
+      "tenNXB": "Nhà xuất bản tài chính",
+      "tenSach": "Món Ăn Việt Nam"
+    },
+    {
+      "hinh": "a16",
+      "id": 16,
+      "id_Loai": 1,
+      "id_NXB": 1,
+      "moTa": "Thông tin kế toán là thông tin hết sức cần thiết và quan trọng đối với các nhà quản lý. Bất kỳ nhà quản lý nào trong bất kỳ doanh nghiệp nào – từ một tổ hợp công nghiệp đến một cửa hàng thực phẩm – đều phải dựa vào thông tin của kế toán để quản lý, điều hành, kiểm soát và ra các quyết định kinh tế.\n\nKế toán tài chính là phân hệ thông tin thuộc hệ thống thông tin kế toán, thực hiện chức năng cung cấp thông tin về tình hình tài sản, nguồn vốn cũng như tình hình và kết quả hoạt động của doanh nghiệp để phục vụ cho yêu cầu quản lý của nhiều đối tượng khác nhau, bên trong cũng như bên ngoài doanh nghiệp. Chất lượng của thông tin kế toán tài chính có ảnh hưởng lớn và trực tiếp đến chất lượng và hiệu quả quản lý không chỉ đối với bản thân doanh nghiệp, mà còn với nhiều đối tượng khác trong đó có các cơ quan chức năng của nhà nước. Do vậy việc tổ chức, thực hiện tốt kế toán tài chính không chỉ là mối quan tâm của các doanh nghiệp mà còn là mối quan tâm của cơ quan soạn thảo, ban hành chế độ kế toán, của các cơ quan nhà nước thực hiện chức năng quản lý doanh nghiệp.",
+      "namXB": 2020,
+      "soLuong": 30,
+      "tacGia": "Trần Xuân Nam",
+      "tenNXB": "Nhà xuất bản tài chính",
+      "tenSach": "Kế toán tài chính"
+    },
+    {
+      "hinh": "a17",
+      "id": 17,
+      "id_Loai": 1,
+      "id_NXB": 2,
+      "moTa": "Trạng thái lí tưởng trong vận hành doanh nghiệp là gì? “Mua vào rẻ, bán ra đắt, các khâu trung gian không lãng phí thất thoát”, dường như câu nói này rất đơn giản nhưng lại diễn tả một cách trực quan những thách thức rất hiện thực về việc doanh nghiệp khi quản lí cần đạt hiệu ích như thế nào ở các khâu mua hàng, tiêu thụ và vận hành.",
+      "namXB": 2020,
+      "soLuong": 30,
+      "tacGia": "Lê Ngọc Khánh",
+      "tenNXB": "Nhà xuất bản tổng hợp HCM",
+      "tenSach": "Kế toán chi phí"
+    },
+    {
+      "hinh": "a18",
+      "id": 18,
+      "id_Loai": 1,
+      "id_NXB": 3,
+      "moTa": "Việc sử dụng thông tin kế toán để phục vụ cho yêu cầu quản lý và ra quyết định đang và ngày cảng trở nên cần thiết, phổ biến cho nhiều đối tượng khác nhau, đặc biệt cho các nhà đầu tư hiện tại, cho những người có mong muốn và có nhu cầu đầu tư trong tương lai.\n\nĐể sử dụng được thông tin do kế toán cung cấp thì nhất thiết phải có những hiểu biết cơ bản về đối tượng, phương pháp và nội dung kế toán, môn Nguyên Lý Kế Toán là môn học cung cấp những kiến thức nền tảng về kế toán, qua đó tạo cơ sở để tiếp tục học tập, nghiên cứu các môn học kế toán chuyên ngành.\n\nNội dung cơ bản của môn Nguyên Lý Kế Toán bao gồm việc trình bày và giải thích đối tượng của kế toán, các phương pháp kế toán được sử dụng để thu thập, xử lý, tổng hợp và cung cấp thông tin và một số nội dung kế toán cơ bản trong doanh nghiệp. Nguyên Lý Kế Toán sẽ rất bổ ích cho những ai muốn tìm hiểu, nghiên cứu về kế toán.\n\nCuốn sách này được chúng tôi biên soạn với mục tiêu đáp ứng yêu cầu tìm hiểu về kế toán cho nhiều đối tượng khác nhau. Đặc biệt cuốn sách này còn là tài liệu học tập tham khảo cần thiết cho sinh viên khối kinh tế các trường Đại Học, Cao Đẳng.\n",
+      "namXB": 2020,
+      "soLuong": 30,
+      "tacGia": "Nguyễn Hữu Ánh & Phạm Đức Cường",
+      "tenNXB": "Nhà xuất bản đại học Kinh tế Quốc dân",
+      "tenSach": "Nguyên lí kế toán"
+    },
+    {
+      "hinh": "a19",
+      "id": 19,
+      "id_Loai": 1,
+      "id_NXB": 4,
+      "moTa": "Nguyên lý kế toán là cơ sở, nền tảng quan trọng nhất của khoa học kế toán nói riêng và khoa học kinh tế nói chung.\n\nĐể tạo điều kiện cho việc nghiên cứu, giảng dạy, học tập và vận dụng nguyên lý kế toán, đồng thời góp phần đổi mới phương pháp tiếp cận với khoa học kế toán của các đối tượng khác nhau, nhóm tác giả Viện Kế Toán – Kiểm toán, trường Đại học Kinh Tế Quốc dân đã biên soạn cuốn Nguyên lý kế toán.\n\nCuốn sách đề cập đến tất cả những vấn đề về nguyên lý kế toán cơ bản đến nâng cao. Bạn đọc có thể tìm hiểu nguyên lý kế toán thông qua các nội dung tổng hợp lý thuyết, các bài tập mẫu với hướng dẫn giải cụ thể, đồng thời có thể tự ôn tập, kiểm tra và nâng cao trình độ thông qua hệ thống câu hỏi, tình huống trắc nghiệm và các bài tập thực hành phong phú. Ngoài ra, bạn đọc cũng có thể tra cứu các thuật ngữ kế toán thông dụng bằng tiếng Anh ở phần cuối cuốn sách.\n\nCuốn sách kế toán này là tài liệu cần thiết và hữu dụng đối với công tác nghiên cứu, giảng dạy, học tập của giáo viên và sinh viên các trường kinh tế, quản trị kinh doanh và nhiều đối tượng quan tâm khác.\n\nHy vọng qua cuốn sách này, bạn đọc có thể nắm một cách vững chắc và toàn diện về tất cả các vấn đề của nguyên lý kế toán.",
+      "namXB": 2020,
+      "soLuong": 30,
+      "tacGia": "Nguyễn Thị Loan",
+      "tenNXB": "Nhà xuất bản Kinh tế Hồ Chí Minh",
+      "tenSach": "Kế toán ngân hàng"
+    },
+    {
+      "hinh": "a20",
+      "id": 20,
+      "id_Loai": 1,
+      "id_NXB": 4,
+      "moTa": "Kế toán quản trị hay kế toán quản lý là lĩnh vực chuyên môn của kế toán nhằm nắm bắt các vấn đề về thực trạng, đặc biệt thực trạng tài chính của doanh nghiệp; qua đó phục vụ công tác quản trị nội bộ và ra quyết định quản trị. Thông tin của kế toán quản trị đặc biệt quan trọng trong quá trình vận hành của doanh nghiệp, đồng thời phục vụ việc kiểm soát, đánh giá doanh nghiệp đó.\nThông tin mà kế toán quản trị cần nắm bắt bao gồm cả thông tin tài chính và thông tin phi tài chính.\nBản chất của thông tin trong kế toán quản trị là thông tin quản lý, không phải thông tin tài chính đơn thuần. Trước khi tập hợp thông tin kế toán quản trị phải biết rõ mục đích của thông tin đó.\nVai trò trách nhiệm truyền thống của kế toán quản trị đang được mở rộng bao hàm cả các nhu cầu đối với quá trình ra quyết định chiến lược kinh doanh. Cán bộ kế toán quản trị ngày nay không còn đơn thuần làm công việc đo, đếm. Các kỹ năng tài chính của người làm kế toán quản trị có được từ kinh nghiệm và đào tạo đã được sử dụng rộng rãi trong nhiều hoạt động của doanh nghiệp. Người làm kế toán quản trị ngày nay cần phải hiểu được các lĩnh vực chức năng khác như marketing, tài chính, quản trị hòa quyện với các quyết định của kế toán thế nào.",
+      "namXB": 2020,
+      "soLuong": 30,
+      "tacGia": "Nguyễn Thị Loan & Trần Quốc Thịnh",
+      "tenNXB": "Nhà xuất bản Kinh tế Hồ Chí Minh",
+      "tenSach": "Kế toán quản trị"
+    },
+    {
+      "hinh": "a21",
+      "id": 21,
+      "id_Loai": 2,
+      "id_NXB": 5,
+      "moTa": "Ngày nay, phương pháp phân tích và thiết kế hệ thống thông tin hướng cấu trúc (SADT) được dùng khá phổ biến bởi nhiều ưu điểm của nó như: dựa vào nguyên lý phân tích cấu trúc, thiết kế theo lối phân cấp, dựng trên các lưu đồ chức năng, tạo được các liên hệ, bảo đảm từ một dữ liệu vào sản xuất nhiều dữ liệu ra. Với mục đích cung cấp cho bạn đọc những kiến thức cơ bản về phân tích và thiết kế hệ thống thông tin, Nhà xuất bản Thông tin và Truyền thông giới thiệu cuốn sách “Kỹ thuật phân tích và thiết kế hệ thống thông tin hướng cấu trúc” do TS. Lê Văn Phùng, Viện Công nghệ Thông tin – Viện Khoa học và Công nghệ Việt Nam biên soạn. Nội dung cuốn sách giới thiệu các khái niệm cơ bản về hệ thống và hệ thống thông tin, quy trình phân tích và thiết kế hệ thống hướng cấu trúc, các kỹ thuật cơ bản liên quan đến tiến trình phân tích và thiết kế. Ngoài ra còn có thêm một số bài tập mẫu phân tích thiết kế hệ thống kinh doanh bán buôn được trình bày ngắn gọn, đơn giản giúp người đọc dễ tiếp thu và dễ áp dụng. Mong muốn cuốn sách sẽ là tài liệu cần thiết, hữu ích đối với các kỹ sư, kỹ thuật viên, cán bộ giảng dạy và sinh viên ngành Công nghệ Thông tin.",
+      "namXB": 2021,
+      "soLuong": 30,
+      "tacGia": "Huỳnh Ngọc Tín",
+      "tenNXB": "Nhà xuất bản đại học quốc gia TP Hồ Chí Minh",
+      "tenSach": "Phân tích thiết kế hệ thống thông tin"
+    },
+    {
+      "hinh": "a22",
+      "id": 22,
+      "id_Loai": 2,
+      "id_NXB": 5,
+      "moTa": "Cơ sở dữ liệu (CSDL) là một trong những môn học cơ bản quan trọng của chuyên ngành công nghệ thông tin. Mục đích của cuốn sách nhằm giúp bạn đọc nắm bắt nhanh những vấn đề cốt lõi nhất về mặt lý thuyết CSDL quan hệ mà trên cơ sở đó vận dụng vào thực tế trong việc thiết kế CSDL mức logic cũng như thiết kế hệ thống thông tin nói chung. Do đó, nội dung tài liệu không đi sâu vào việc chứng minh các định lý mà chú trọng đến việc làm sáng tỏ ý nghĩa thực tế của các công thức để từ đó hướng dẫn học viên cách tiếp cận tư duy logic, nắm vững kỹ thuật tính toán cũng như các bước triển khai giải quyết các bài toán thực tế trên khía cạnh công nghệ. \n\nNội dung sách gồm 04 chương:\n\nChương 1 - Tổng quan về CSDL X 7       \n\nChương 2 - Mô hình CSDL quan hệ X 50          \n\nChương 3 - Quy trình phân tích thiết kế CSDL X 121          \n\nChương 4 - Thiết kế CSDL quan hệ phân tán X 217\n\n",
+      "namXB": 2021,
+      "soLuong": 30,
+      "tacGia": "Nguyễn Đăng Tỵ & Đỗ Phúc",
+      "tenNXB": "Nhà xuất bản đại học quốc gia TP Hồ Chí Minh",
+      "tenSach": "Cơ sở dữ liệu"
+    },
+    {
+      "hinh": "a23",
+      "id": 23,
+      "id_Loai": 2,
+      "id_NXB": 5,
+      "moTa": "Chúng ta có thể định nghĩa Cơ sở dữ liệu như là một bộ sưu tập có tổ chức của các cơ sở dữ liệu liên quan logic với nhau và được các hệ ứng dụng của một tổ chức cụ thể nào đó sử dụng. Cách tiếp cận cơ sở dữ liệu nhấn mạnh đến tính chia sẻ và tích hợp của dữ liệu trong toàn bộ hoạt động của một doanh nghiệp. Theo cách tiếp cận này, dữ liệu được lưu trữ có tổ chức, tập trung dưới dạng một cơ sở dữ liệu và giữa các dữ liệu có sự liên kết logic với nhau.\nNội dung cuốn sách này là hệ thống những vấn đề quan trọng nhất của cơ sở dữ liệu quan hệ, một mô hình dữ liệu xuất hiện trong hầu khắp các bài toán quản lý của doanh nghiệp",
+      "namXB": 2021,
+      "soLuong": 30,
+      "tacGia": "Nguyễn Thị Trà Linh",
+      "tenNXB": "Nhà xuất bản đại học quốc gia TP Hồ Chí Minh",
+      "tenSach": "Hệ quản trị cơ sở dữ liệu oracle"
+    },
+    {
+      "hinh": "a24",
+      "id": 24,
+      "id_Loai": 2,
+      "id_NXB": 6,
+      "moTa": "Sách được biên soạn chủ yếu cho sinh viên các trường Đại học, Cao đẳng chuyên ngành Tin học đặc biệt là Khoa học máy tính làm tài liệu tham khảo. Sách vẫn sử dụng tốt cho những Kỹ sư Tự động hóa, Điện tử viễn thông, Cơ điện tử, Cơ khí…",
+      "namXB": 2021,
+      "soLuong": 30,
+      "tacGia": "Lasse Rouhiainen",
+      "tenNXB": "Nhà xuất bản Kim đồng",
+      "tenSach": "Trí tuệ nhân tạo"
+    },
+    {
+      "hinh": "a25",
+      "id": 25,
+      "id_Loai": 2,
+      "id_NXB": 5,
+      "moTa": "Hiện nay, học phần lập trình Java căn bản đã được đưa vào chương trình giảng dạy ở các bậc học chương trình đào tạo cử nhân thông tin. Để tạo điều kiện thuận lợi về tài liệu học tập cho sinh viên, cuốn sách “Lập trình Java căn bản” được biên soạn nhằm cung cấp các kiến thức cơ bản về ngôn ngữ lập trình Java; kiến thức về lập trình hướng đối tượng, xử lý biệt lệ, lập trình đa luồng, các luồng vào/ra, lập trình Form với Swing và kết nối cơ sở dữ liệu (CSDL) với Java. Ngoài ra, cuốn sách còn cung cấp thêm các lớp tiện ích hỗ trợ lập trình cấu trúc dữ liệu trong ngôn ngữ lập trình Java.",
+      "namXB": 2021,
+      "soLuong": 30,
+      "tacGia": "Huỳnh Ngọc Tín",
+      "tenNXB": "Nhà xuất bản đại học quốc gia TP Hồ Chí Minh",
+      "tenSach": "Lập trình java"
+    },
+    {
+      "hinh": "a26",
+      "id": 26,
+      "id_Loai": 3,
+      "id_NXB": 5,
+      "moTa": "Sinh Học Phân Tử của Tế Bào là một cuốn sách giáo khoa chuyên ngành dành cho sinh viên đại học và sau đại học, do GS. Harvey Lodish và các nhà khoa học hàng đầu thế giới biên soạn",
+      "namXB": 2020,
+      "soLuong": 40,
+      "tacGia": "Nguyễn Thị Hồng Nhung",
+      "tenNXB": "Nhà xuất bản đại học quốc gia TP Hồ Chí Minh",
+      "tenSach": "Sinh học tế bào & di truyền học"
+    },
+    {
+      "hinh": "a27",
+      "id": 27,
+      "id_Loai": 3,
+      "id_NXB": 7,
+      "moTa": "Công Nghệ Sinh Học Phân Tử – Nguyên Lý Và Ứng Dụng Của ADN Tái Tổ Hợp của 2 giáo sư nổi tiếng thuộc trường Đại học Waterloo ( Canada) là một trong những cuốn sách bán chạy đã được Nhà xuất bản của Hiệp hội Vi sinh vật học Hoa kỳ (American Society for Microbiology – ASM).Công Nghệ Sinh Học Phân Tử – Nguyên Lý Và Ứng Dụng Của ADN Tái Tổ Hợp được cập nhật rất nhiều thông tin thuộc mọi vấn đề liên quan đến công nghệ sinh học phân tử sau gần 30 năm ( tính từ cuối những năm 1970).Nội dung cuốn sách giới thiệu các vấn đề: Nền tảng – nguyên lý cơ bản của công nghệ sinh học phân tử, các ứng dụng của công nghệ ADN tái tổ hợp trong nhiều ngành công nghiệp, nông nghiệp, y dược và sinh học chống ô nhiễm.  ",
+      "namXB": 2020,
+      "soLuong": 40,
+      "tacGia": "Bernard R.Guck",
+      "tenNXB": "Nhà xuất bản Khoa học và kỹ thuật",
+      "tenSach": "Công nghệ sinh học phân tử"
+    },
+    {
+      "hinh": "a28",
+      "id": 28,
+      "id_Loai": 3,
+      "id_NXB": 8,
+      "moTa": "Khi đứa con trai của một người bạn thân thiết mắc phải chứng loạn dưỡng cơ Duchenne – thể tồi tệ nhất của căn bệnh loạn dưỡng cơ đến nay vẫn chưa có phương pháp điều trị, ý tưởng phát triển một liệu pháp mới đã lóe lên trong đầu Tiến sĩ Neil Riordan. Điều đó ngày càng trở thành một niềm tin mãnh liệt và thôi thúc ông phải nghiên cứu về liệu pháp tế bào gốc. Và nhờ vậy mà không chỉ hy vọng của hàng triệu bệnh nhân có thể được chữa trị bằng liệu pháp này được thắp lên, quyển sách “Tế bào gốc” cũng được ra đời.",
+      "namXB": 2020,
+      "soLuong": 40,
+      "tacGia": "Paul KNoepPler",
+      "tenNXB": "Nhà xuất bản dân trí",
+      "tenSach": "Tế bào gốc"
+    },
+    {
+      "hinh": "a29",
+      "id": 29,
+      "id_Loai": 3,
+      "id_NXB": 9,
+      "moTa": "",
+      "namXB": 2020,
+      "soLuong": 40,
+      "tacGia": "C.D Paul",
+      "tenNXB": "Nhà xuất bản trẻ",
+      "tenSach": "Chuyên ngành sinh học & kỹ thuật sinh học"
+    },
+    {
+      "hinh": "a30",
+      "id": 30,
+      "id_Loai": 3,
+      "id_NXB": 9,
+      "moTa": "Cuốn sách Di tuyền học (Bài tập chuyên đề) là cuốn sách cung cấp các dạng bài tập vận dụng ở nhiều mức độ khác nhau. Những câu hỏi nhằm vào mục đích phát triển và hoàn thiện các kỹ năng cũng như củng cố kiến thức của bạn. Mặc dù các câu hỏi từ khá đơn giản và dễ hiểu đến phức tạp và cực kì phức tạp, một số câu hỏi có mức độ khó hơn so với đề thi nên sẽ mất nhiều thời gian để trả lời.",
+      "namXB": 2020,
+      "soLuong": 40,
+      "tacGia": "Larry Conick",
+      "tenNXB": "Nhà xuất bản trẻ",
+      "tenSach": "Câu chuyện di truyền"
+    }
+  ],
+  "nhut": "hello"
+}

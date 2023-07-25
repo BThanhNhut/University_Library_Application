@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TrangChu_User</string>
+
+    <string name="tab_trangchu">Trang chủ</string>
+    <string name="tab_giosach">Giỏ sách</string>
+    <string name="tab_yeuthich">Yêu thích</string>
+    <string name="tab_taikhoan">Tài khoản</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tenSach">Lập trình java</string>
+    <string name="Ngay">Ngày mượn</string>
+</resources>

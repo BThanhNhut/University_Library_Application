@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheLoai">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_theloai"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:tabMode="scrollable">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_tatca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TẤT CẢ"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_tinhoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TIN HỌC" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_ngoaingu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NGOẠI NGỮ" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_ketoan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KẾ TOÁN" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_dulich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DU LỊCH" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_detmay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DỆT MAY" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_sinhhoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SINH HỌC" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

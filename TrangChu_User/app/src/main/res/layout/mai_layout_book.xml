@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="110dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#ACA7A7"
+    tools:ignore="MissingClass">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:translationZ="90dp">
+
+        <TextView
+            android:id="@+id/tvsl"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:background="#0277BD"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="110dp"
+        android:layout_height="155dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:src="@drawable/mai_women1" />
+
+            <TextView
+                android:id="@+id/tvnamebook"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Nguyên lí kế toán 1111111"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

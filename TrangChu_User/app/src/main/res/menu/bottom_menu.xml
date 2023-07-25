@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/tab_trangchu"
+        android:icon="@drawable/ic_menu_trangchu"
+        android:title="@string/tab_trangchu"/>
+    <item android:id="@+id/tab_yeuthich"
+        android:icon="@drawable/ic_menu_yeuthich"
+        android:title="@string/tab_yeuthich"/>
+
+    <item android:id="@+id/tab_giosach"
+        android:icon="@drawable/ic_menu_gio_sach"
+        android:title="@string/tab_giosach"/>
+    <item android:id="@+id/tab_taikhoan"
+        android:icon="@drawable/ic_menu_taikhoan"
+        android:title="@string/tab_taikhoan"/>
+</menu>

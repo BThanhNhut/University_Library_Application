@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="1dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="0dp"
+    app:contentPadding="8dp">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/cmt"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/toan"
+            app:strokeColor="@color/teal_700"
+
+            app:strokeWidth="1dp" />
+
+        <TextView
+            android:id="@+id/nameCmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cmt"
+            android:layout_toStartOf="@id/dateCmt"
+            android:layout_marginTop="5dp"
+            android:text="kakarot"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/dateCmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:text="dd/MM/yyyy"
+            android:textColor="@color/black"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/dmtlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cmt"
+            android:layout_below="@id/nameCmt"
+            android:layout_marginTop="5dp"
+            android:text="sách này hay quá mình vote cho 5 sao nhá"
+            android:textColor="@color/black"
+            android:textSize="12sp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

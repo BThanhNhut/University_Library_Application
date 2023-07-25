@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_margin="5dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="20dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@drawable/border_card"
+            >
+            <ImageView
+                android:id="@+id/ct_hinh"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:maxHeight="140dp"
+                android:src="@drawable/ic_launcher_background"
+                />
+            <TextView
+                android:id="@+id/txt_ct_tensach"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_toRightOf="@id/ct_hinh"
+                android:text="Sách thứ 1"
+                android:textSize="15dp"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/txt_ct_namxuatban"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_toRightOf="@id/ct_hinh"
+                android:layout_below="@+id/txt_ct_tensach"
+                android:gravity="center"
+                android:text="Năm xuất bản"
+                />
+            <TextView
+                android:id="@+id/txt_ct_tacgia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tác giả"
+                android:layout_toRightOf="@id/ct_hinh"
+                android:layout_below="@+id/txt_ct_namxuatban"
+                android:gravity="center"
+                />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

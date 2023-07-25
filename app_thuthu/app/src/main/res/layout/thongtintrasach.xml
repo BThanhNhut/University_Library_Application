@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="5dp">
+        <RelativeLayout
+            android:id="@+id/select1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blue"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/txt_mamuon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ma phieu muon"
+                android:layout_marginLeft="10dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txt_docgia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_mamuon"
+                android:text="Ten doc gia"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txt_sach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_docgia"
+                android:text="Sách đang mượn : "
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txt_slm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_docgia"
+                android:layout_toRightOf="@id/txt_sach"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="3dp"
+                android:text="0"
+                >
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_sach"
+                android:text="Sách đã trả : "
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txt_slt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_slm"
+                android:layout_toRightOf="@id/txt_sach"
+                android:layout_marginTop="3dp"
+                android:text="0"
+                />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:maxHeight="100dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/bg2"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

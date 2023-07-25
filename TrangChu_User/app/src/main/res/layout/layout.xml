@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp">
+        <RelativeLayout
+            android:id="@+id/select"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/thao"
+            android:padding="10dp">
+           <com.google.android.material.imageview.ShapeableImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:id="@+id/hinh"
+               app:shapeAppearanceOverlay="@style/tron"
+               />
+           <TextView
+               android:layout_width="250dp"
+               android:layout_height="50dp"
+               android:layout_toRightOf="@+id/hinh"
+               android:layout_marginLeft="10dp"
+               android:text="Ho Phuong Thao"
+               android:textColor="@color/white"
+               android:textSize="20dp"
+               android:textStyle="bold"
+               android:paddingTop="10dp"
+               android:id="@+id/ten"/>
+           <TextView
+               android:layout_width="310dp"
+               android:layout_height="25dp"
+               android:layout_below="@id/hinh"
+               android:layout_marginTop="10dp"
+               android:id="@+id/congviec"
+               android:textColor="@color/white"
+               android:textSize="18sp"
+               />
+           <TextView
+               android:layout_width="60dp"
+               android:layout_height="90dp"
+               android:layout_toRightOf="@id/ten"
+               android:layout_marginLeft="10dp"
+               android:textColor="@color/white"
+               android:textStyle="bold"
+               android:id="@+id/danhgia"
+               android:textAlignment="center"
+               android:gravity="center"
+               android:textSize="20sp"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
